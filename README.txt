@@ -8,7 +8,9 @@ Once installed, open up your terminal or cmd to install flask.
 // or
 > py -m pip install Flask
 
-Once flask is installed, navigate to the sandbox/ folder and run flask.
+Once flask is installed, navigate to the sandbox/ folder, set needed environment variables and run flask.
+> set FLASK_ENV=development
+> set FLASK_APP=app.py
 > flask run
 
 Now go to the internet browser and start using the API by localhost.
